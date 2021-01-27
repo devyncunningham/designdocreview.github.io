@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include _shared_html_head.html %}
+    <link rel="stylesheet" href="assets/css/carousel.css">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    	{% include nav.html %}
+      {{ content }}
+    	{% include footer.html %}
+    	{% include scripts.html %}
+	</div>
+  </body>
+</html>

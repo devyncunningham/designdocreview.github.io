@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include _shared_html_head.html %}
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    	{% include landing_nav.html %}
+      	<main role="main" class="inner cover">
+    		{{ content }}
+      	</main>
+    	{% include footer.html %}
+    	{% include scripts.html %}
+	</div>
+  </body>
+</html>
